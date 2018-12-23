@@ -30,7 +30,7 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = "helloAssertions.App"
+    mainClassName = "App"
 }
 
 val test by tasks.getting(Test::class) {
