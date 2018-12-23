@@ -4,7 +4,10 @@
 package helloAssertions;
 
 public class App {
+
     public String getGreeting() {
+        boolean foo = false;
+        assert foo;
         return "Hello world.";
     }
 
